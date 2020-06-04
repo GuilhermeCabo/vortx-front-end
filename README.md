@@ -6,10 +6,10 @@ especificados<p>
 
 ### Como rodar o projeto localmente
 
-<p>Clone o projeto na sua máquina, e rode um dos seguintes comandos<p>
+<p>Clone o projeto na sua máquina e rode um dos seguintes comandos<p>
 
--npm install
--yarn
+> npm install
+> yarn
 
 <p> Caso não possua nenhum dos dois gerenciadores de pacote, instale um deles nos seguintes links<p>
 
@@ -19,5 +19,5 @@ especificados<p>
 
 <p>Após rodar o comando de instalação de pacotes, rode um dos seguintes comandos para iniciar a aplicação localmente:<p>
 
--npm start
--yarn start
+> npm start
+> yarn start
