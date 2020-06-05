@@ -16,7 +16,7 @@ especificados<p>
 
 <a target="_blank" href="https://nodejs.org/en/">NPM (Instalando em conjunto ao Node.js)</a>
 <br />
-<a target="_blank" href="https://yarnpkg.com/getting-started/install">Yarm</a>
+<a target="_blank" href="https://yarnpkg.com/getting-started/install">Yarn</a>
 
 <p>Após rodar o comando de instalação de pacotes, rode um dos seguintes comandos para iniciar a aplicação localmente:<p>
 
