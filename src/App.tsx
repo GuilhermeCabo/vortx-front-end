@@ -67,6 +67,7 @@ const App: React.FC = () => {
     },
   ]);
 
+  const [loading, setLoading] = useState<boolean>(false);
   const [result, setResult] = useState<ISimulation | undefined>(undefined);
 
   const { handleSubmit, register, getValues } = useForm();
@@ -81,6 +82,8 @@ const App: React.FC = () => {
 
     try {
       await schema.validate(data, { abortEarly: false });
+
+      setLoading(true);
 
       const response = await api.post("/calls", {
         from_city_code: parseInt(data.from_city_code),
@@ -180,7 +183,7 @@ const App: React.FC = () => {
                 />
               </div>
 
-              <button>Simular</button>
+              <button>{loading ? "Calculando..." : "Simular"}</button>
             </form>
           </div>
         )}
